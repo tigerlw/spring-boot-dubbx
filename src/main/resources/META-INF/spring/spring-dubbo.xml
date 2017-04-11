@@ -18,6 +18,10 @@
     
     <dubbo:reference id="userService" interface="com.ucloudlink.dubbox.service.UserService"/>
     
+    <dubbo:reference id="mockService" interface="com.ucloudlink.dubbox.service.MockService"/>
+    
+    <dubbo:reference id="callbackService" interface="com.ucloudlink.dubbox.service.CallbackService"/>
+    
     
  
     
