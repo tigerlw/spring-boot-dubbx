@@ -1,4 +1,4 @@
-package com.ucloudlink.dubbox.service;
+package com.camp.dubbox.service;
 
 public interface UserService 
 {

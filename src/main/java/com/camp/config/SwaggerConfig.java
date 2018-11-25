@@ -1,4 +1,4 @@
-package com.ucloudlink.config;
+package com.camp.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

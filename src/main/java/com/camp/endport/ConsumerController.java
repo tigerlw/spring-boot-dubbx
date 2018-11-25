@@ -1,4 +1,4 @@
-package com.ucloudlink.endport;
+package com.camp.endport;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ucloudlink.dubbox.service.CallbackListener;
-import com.ucloudlink.dubbox.service.CallbackService;
-import com.ucloudlink.dubbox.service.MockService;
-import com.ucloudlink.dubbox.service.UserService;
+import com.camp.dubbox.service.CallbackListener;
+import com.camp.dubbox.service.CallbackService;
+import com.camp.dubbox.service.MockService;
+import com.camp.dubbox.service.UserService;
 
 import rx.Observer;
 import rx.subjects.PublishSubject;
@@ -19,13 +19,13 @@ import rx.subjects.PublishSubject;
 @RestController
 public class ConsumerController {
 	
-	@Autowired
+	//@Autowired
 	private UserService userService;
 	
-	@Autowired
+	//@Autowired
 	private MockService mockService;
 	
-	@Autowired
+	//@Autowired
 	private CallbackService callbackService;
 	
 	@RequestMapping(value="/hello", method=RequestMethod.GET)
